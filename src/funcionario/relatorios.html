@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-scola</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light nav-func">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <span class="align-middle">
+                    <span class="material-icons md-36">
+                        auto_stories
+                    </span>
+                </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="inicio.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="relatorios.html">Relatorios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aprovacoes.html">Aprovações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="financeiro.html">Parte Financeira</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="chat.html">Chat</a>
+                    </li>
+                </ul>
+                <span class="navbar-text">
+                    <button class="btn btn-danger" onclick="window.location.href='../index.html'">Logout</button>
+                </span>
+            </div>
+        </div>
+    </nav>
+
+    <script type="javascript/text">
+        function gera_relatorio(){
+            document.getElementById("TEeste").value= ;
+        }
+
+    </script>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 side-nav func-bg">
+                <h2>Relatorios</h2>
+
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action func-active"
+                        aria-current="true">Alunos</a>
+                </div>
+
+            </div>
+            <div class="col">
+                <h3>Selecionar relatório</h3>
+
+                <div class="row">
+                    <div class="col-4">
+                        <div class="mb-2">
+                            <h3 class="ps-2">Alunos</h3>
+                            <hr>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="" checked>
+                                        Alice Ventura
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Anita Rocha
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Gustavo Oliveira
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Diana Armando
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Leonel Santos
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Luísa Pinto
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Maya Pinheiro
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Manuela Nunes
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Marcelo Madeira
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Pedro Soares
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Santiago Franco
+                                    </div>
+                                </li>
+                                <li class="list-group-item">
+                                    <div class="form-check">
+                                        <input class="form-check-input me-1" type="checkbox" value="">
+                                        Victor Esteves
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="text-end">
+                            <a href="#" class="link-primary">Limpar todos</a>
+                        </div>
+                    </div>
+
+                    <div class="col-4">
+                        <h3>Presenças</h3>
+                        <hr>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Aluno</th>
+                                    <th scope="col">Datas das faltas</th>
+                                    <th scope="col">Qtd</th>
+                                    <th scope="col">Ano letivo</th>
+                                    <th scope="col">Matrícula</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Alice Ventura</th>
+                                    <td>05/03</td>
+                                    <td>1</td>
+                                    <td>8°</td>
+                                    <td>50620</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th scope="row">Total</th>
+                                    <td></td>
+                                    <td>1</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+
+                    <div class="col-4">
+                        <h3>Notas</h3>
+                        <hr>
+                        <table class="table mb-5">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Aluno</th>
+                                    <th scope="col">N1</th>
+                                    <th scope="col">N2</th>
+                                    <th scope="col">N3</th>
+                                    <th scope="col">N4</th>
+                                    <th scope="col">Média</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Alice Ventura</th>
+                                    <td>7.3</td>
+                                    <td>8.2</td>
+                                    <td>n/a</td>
+                                    <td>n/a</td>
+                                    <td>7.7</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th scope="row">Média geral</th>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>7.7</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+
+                        <div class="col">
+                            <h3>At. Extras</h3>
+                            <hr>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Aluno</th>
+                                        <th scope="col">At Extras</th>
+                                        <th scope="col">Status</th>
+                                        <th scope="col">Matrícula</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Alice Ventura</th>
+                                        <td>Música</td>
+                                        <td>Cursando</td>
+                                        <td>50620</td>
+                                    </tr>
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th scope="row">Total</th>
+                                        <td></td>
+                                        <td>1</td>
+                                    </tr>
+                                </tfoot>
+                            </table>
+
+
+                            <form action="#">
+
+                                <button type="submit" class="btn btn-outline-primary" value="exportar">Exportar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

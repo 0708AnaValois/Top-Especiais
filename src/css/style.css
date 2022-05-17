@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+:root {
+    --font-sserif: Rubik;
+    --aluno-baby: #ECF8FD;
+    --aluno-light: #a9def9;
+    --aluno-dark: #0d84bf;
+    --prof-baby: #FBE9DA;
+    --prof-light: #f4bb90;
+    --prof-dark: #CC6414;
+    --pais-light: #BDEFD1;
+    --pais-dark: #28A45A;
+    --func-baby: #F7F1DE;
+    --pais-baby: #effbf4;
+    --func-light: #ebdead;
+    --func-dark: #CBAD40;
+    --gen-light: #FF99B8;
+    --gen-dark: #B80037;
+    --white: #e9e9e9;
+    --black: #000000;
+}
+
+body {
+    font-family: var(--font-sserif);
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+footer {
+  position: fixed; /* Here's what sticks it */
+  bottom: 0; /* to the bottom of the window */
+  left: 0; /* and to the left of the window. */
+  padding: 1rem 3rem 1rem;
+  width: 100%;
+  background-color: var(--gen-light);
+  color: var(--gen-dark);
+}
+
+.btn-outline-orange {
+  border-color: #f57b29;
+}
+
+.btn-outline-orange:hover, .btn-outline-orange:active {
+  color: #fff !important; 
+  background-color: #f57b29;
+  border-color: #f57b29;
+}
+
+.btn-outline-orange:focus, .btn-outline-orange:active:focus {
+  box-shadow: 0 0 0 0.25rem rgba(253, 121, 13, 0.5);
+}
+
+/* body{
+    background: url(../img/fundo-linhas.png), url(../img/fundo-textura.png);
+    background-position: center;
+} */
+
+/*-------------- HOME----------------->*/
+
+
+/* Navegação */
+.side-nav {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+.nav-pais {
+  background-color: var(--pais-light);
+}
+
+.nav-func {
+  background-color: var(--func-light);
+}
+
+.nav-prof {
+  background-color: var(--prof-light);
+}
+
+.nav-aluno {
+  background-color: var(--aluno-light);
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.nav-title {
+  display: flex;
+  flex-basis: auto;
+}
+
+/* Area do professor */
+
+.prof-bg {
+  background-color: var(--prof-baby);
+}
+
+.prof-active, .prof-active:hover {
+  background-color: var(--prof-dark);
+  color: var(--white);
+  z-index: 3;
+}
+
+/* Área do funcionário */
+
+.func-bg {
+  background-color: var(--func-baby);
+}
+
+.func-active, .func-active:hover {
+  background-color: var(--func-dark);
+  color: var(--white);
+  z-index: 3;
+}
+
+/* Area do aluno */
+
+.aluno-bg {
+  background-color: var(--aluno-baby);
+}
+
+.aluno-active, .aluno-active:hover {
+  background-color: var(--aluno-dark);
+  color: var(--white);
+  z-index: 3;
+}
+
+/* Gerais */
+
+span > .material-icons {
+  cursor: pointer;
+}
+
+/*-------PAIS-------*/
+.pais-active, .pais-active:hover {
+  background-color: var(--pais-dark);
+  color: var(--white);
+  z-index: 3;
+}
+
+.pais-bg {
+  background-color: var(--pais-baby);
+}
+
+@media screen and (min-width: 1000px) {
+  .side-nav {
+    min-height: 100vh;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}
+
+
+
+h1, .user-count {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 32px;
+}
+
+.user-count {
+  float: right;
+}
+
+.chat {
+  content: '';
+  width: 100%;
+  height: calc(100vh - 165px);
+  background: white;
+  padding: 5px 10px;
+}
+
+.chat p {
+  margin: 0 0 5px 0;
+}
+
+input, button {
+  width: 100%;
+  font: inherit;
+  background: #fff;
+  border: none;
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: #ddd;
+}
+
+@media all and (min-width: 500px) {
+  .chat {
+    height: calc(100vh - 140px);
+  }
+  input {
+    width: calc(100% - 160px);
+  }
+  button {
+    float: right;
+    width: 150px;
+  }
+}
